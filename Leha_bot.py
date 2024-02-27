@@ -65,7 +65,8 @@ def get_run_status(thread_id, run_id):
 def main():
     my_assistant = create_assistant()
     my_thread = create_thread()
-
+    print("Привет! Я робот Алеша! И я помогу тебе выбрать сноуборд")
+    
     while True:
         user_message = input("Введите ваше сообщение: ")
         if user_message.lower() == "exit":
